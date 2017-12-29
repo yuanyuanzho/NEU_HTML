@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Northeastern University Webpage</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="neu.css" rel="stylesheet">
+    </head>
+
+    <body id="myPage" data-spy="scroll" data-traget=".navbar" data-offset="50">
+        <div class="container">
+            <img src="images/northeastern-university.png" alt="neu logo">
+            <img class="float" src="images/ISA.jpg" alt="International">
+        </div>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                     
+                    </button>   
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#home">Home</a></li>
+                        <li class="dropdown">
+                            <a tabindex="-1" class="dropdown-toggle" data-toggle="dropdown" href="#">Co-curricular
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="#">Events</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-submenu">
+                                    <!-- tabindex="-1" means this can’t be reached by using the tab key to navigate through content-->
+                                    <a class="submenu" tabindex="-1" class="dropdown-toggle" data-toggle="dropdown" href="#">Clubs
+                                        <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="#sports">Sports</a></li>
+                                        <li class="divider"></li>
+                                        <li><a tabindex="-1" href="#fashion">Fashion</a></li>
+                                        <li class="divider"></li>
+                                        <li><a tabindex="-1" href="#outdoor">Outdoor Adventure</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a tabindex="-1" href="#newstudent">New Student</a></li>
+                        <li><a tabindex="-1" href="#travel">Your Travel Plan</a></li>
+                        <li><a tabindex="-1" href="#aboutus">About Us</a></li>
+                        <li class="dropdown" id="loginbtn">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <span class="glyphicon glyphicon-log-in"></span> Login <span class="caret"></span>           
+                            </a>
+                            <div class="dropdown-menu" id="dropdownlogin" >
+                                <input id="login" type="email" class="form-control" placeholder="Username">
+                                <input id="login" type="password" class="form-control" placeholder="Password">
+                                <button id="login" type="button" class="btn btn-default">Login</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="carousel slide" data-ride="carousel" id="myCarousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="images/sliderimage1.jpg" alt="Image1">
+                    </div>
+                    <div class="item">
+                        <img src="images/sliderimage2.jpeg" alt="Image2">
+                    </div>
+                    <div class="item">
+                        <img src="images/sliderimage3.jpg" alt="Image3">
+                    </div>
+                    <div class="item">
+                        <img src="images/sliderimage4.jpg" alt="Image4">
+                    </div>
+                </div>
+
+                <a class=" left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="container" id="wrapper">
+            <div class="page-header" >
+                <h2>International Student Assistance</h2>
+            </div>
+
+            <div class="container-fluid well ">
+                    <div class="row">
+                        <div class="col-md-6 col-md-push-6">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/FdOxL-6D9C0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-md-pull-6">
+                            <p>The NEUISA(Northeastern University Student Assistance) is a platform for
+                                incoming international students to assist them in their early days assistance.
+                                Students can contact the voulunteers from the University fot pickup from the airport.
+                            </p>
+                            <p>We also help them provide accommodation, provide information about opening of bank accounts,
+                                familiarize them with the happenings in and around the university, etc. 
+                                To book travel plan and accomodation student need to Sign Up first from the link on right corner of this page!!
+                            </p><br><br>
+                            <p>If you are already a student at Northeastern, you can help us by volunteering.<br>
+                                Mail us at <a href="mailto:admin-is a@husky.neu.edu">admin-is a@husky.neu.edu</a>
+                            </p>                           
+                        </div>
+
+                        
+                    </div>
+            </div><br>
+
+            <div class="container well">
+                <div class="row">
+                    <div class="col-md-6 col-md-push-6">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/BQXPmu36Dwc" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-md-pull-6">
+                        <p>
+                            Andre Kostousov, Sr. Associate Director for International Admissions, Northeastern University, talks about the options for international students at Northeastern. 
+                        </p>
+                        <p>
+                            He discusses the university's cooperative education program, the perks of living and studying in Boston, and gives application advice.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-header" >
+                <h2>Boston Campus</h2>
+            </div>
+            <div class="container well">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <p>The university will convene a global community of students, faculty, social entrepreneurs, and policymakers in October for the 10th annual Clinton Global Initiative University. </p>
+                        <p>President Aoun says the university “is the ideal institution to welcome representatives from around the world committed to social entrepreneurship and improving the human condition.”</p>
+                        <p>Paws or Paws, the Husky is the current mascot of the Northeastern University Huskies. Northeastern debuted the Siberian husky as the school's official mascot and school's nickname on March 4, 1927.</p>
+                        <p>In the fall 2003, Northeastern announced the introduction of a new costumed mascot named Paws, who appears at various University sporting events as well as other University and community functions. </p>
+                        <p>Paws was designed to replace the student-elected Mr. and Mrs. Husky with a more athletic and charismatic mascot who would apply and try-out for the role. Introduced at a time when Northeastern did not have a live mascot, Paws is today joined by King Husky VIII.</p>
+                    </div>
+                    <div class="col-md-6 hidden-sm hidden-xs">
+                        <img class="img-responsive" src="images/northeastern1.jpg" alt="Northeastern Image1" width="560" height="350">
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="container well">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <p>Northeastern features a cooperative education program that integrates classroom study with professional experience on seven continents and a comprehensive study abroad program. In 2011, the university opened the George J. Kostas Research Institute for Homeland Security</p>
+                        <p>Northeastern is a large, highly residential university. Most students choose to live on campus but upperclassmen have the option to live off campus. More than 75% of Northeastern students receive some form of financial aid. </p>
+                        <p>In the 2015–16 school year, the university offered $239 million in grant and scholarship assistance.</p>
+
+                    </div>
+                    <div class="col-md-6 hidden-sm hidden-xs">
+                        <img class="img-responsive" src="images/northeastern2.jpg" alt="Northeastern Image2" width="560" height="350">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+      
+    </body>
+
+    <footer>
+        <div class="text-center">
+            <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a><br><br>
+            <p>&copy;Northeastern University</p>
+        </div>
+    </footer>
+
+    <script>
+    $(document).ready(function(){
+    $('.dropdown-submenu a.submenu').on("click", function(e){
+        $(this).next('ul').toggle();
+        e.stopPropagation();
+        e.preventDefault();
+    });
+    });
+    </script>
+</html>
+
